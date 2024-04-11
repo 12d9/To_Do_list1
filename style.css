@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Roboto' , sans-serif;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background: url("https://tse2.mm.bing.net/th?id=OIP.mdGMJ0lX9p0qQ2IBsJ1YcQHaLH&pid=Api&P=0&h=180") no-repeat;
+   background-position: center;
+   background-size: 350px; 
+}
+.container{
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    background: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(211, 178, 224);
+    border-radius: 10px;
+}
+h1{
+    color: rgb(209, 215, 217);
+    text-align: center;
+    margin-bottom: 36px;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.todo-input {
+    flex: 1;
+    outline: none;
+    padding: 10px 10px 10px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(200, 131, 249);
+    border-radius: 30px;
+    color: rgb(236, 229, 229);
+    font-size: 16px;
+    margin-right: 6px;
+}
+.todo-input::placeholder{
+    color: rgb(170, 239, 216);
+}
+.add-button{
+    border: none;
+    outline: none;
+    background-color: rgb(133, 100, 154);
+    color: rgb(246, 246, 255);
+    font-size:30px ;
+    border-radius:30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.empty-image{
+    margin: 55px auto 0;
+    display: block;
+}
